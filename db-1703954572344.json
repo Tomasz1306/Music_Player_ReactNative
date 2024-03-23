@@ -1,0 +1,31 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "user_name",
+      "login": "Test_l",
+      "password": "Test_pass",
+      "email": "Test.email@gmail.com"
+    }
+  ],
+  "settings": [
+    {
+      "id": 1,
+      "name": "user_name",
+      "filepath": "example/file/path",
+      "photo_path": "../../../rsc/Foto_def_1.png",
+      "style": 1,
+      "volume": 50,
+      "Time_to_sleep_without_activity_in_minutes": 5
+    }
+  ],
+  "statistics": [
+    {
+      "id": 1,
+      "name": "user_name",
+      "Tracs_Listened_To": 6000,
+      "Minutes_Spend_Listening": 500,
+      "Steps_Made": 50
+    }
+  ]
+}

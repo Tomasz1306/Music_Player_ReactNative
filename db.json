@@ -1,0 +1,380 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "user_name",
+      "login": "Admin",
+      "password": "Admin",
+      "email": "Test.email@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Halo",
+      "filepath": "example/file/path",
+      "photo_path": "../../../rsc/Foto_def_1.png",
+      "style": 0,
+      "volume": 50,
+      "Time_to_sleep_without_activity_in_minutes": 5
+    },
+    {
+      "id": 3,
+      "name": "Halo",
+      "filepath": "example/file/path",
+      "photo_path": "../../../rsc/Foto_def_1.png",
+      "style": 0,
+      "volume": 50,
+      "Time_to_sleep_without_activity_in_minutes": 5
+    },
+    {
+      "id": 4,
+      "name": "Halo",
+      "login": "Halo",
+      "password": "Halo",
+      "email": "Halo@o.o"
+    },
+    {
+      "id": 5,
+      "name": "Witam",
+      "login": "Witam",
+      "password": "Witam",
+      "email": "Witam@o.o"
+    },
+    {
+      "id": 6,
+      "name": "Nowy",
+      "login": "Nowy",
+      "password": "Nowy",
+      "email": "Nowy@o.o"
+    },
+    {
+      "id": 7,
+      "name": "Tak",
+      "login": "Tak",
+      "password": "Tak",
+      "email": "Tak@o.o"
+    },
+    {
+      "id": 8,
+      "name": "W",
+      "login": "W",
+      "password": "W",
+      "email": "W@o.o"
+    },
+    {
+      "id": 9,
+      "name": "R",
+      "login": "R",
+      "password": "R",
+      "email": "R@o.o"
+    },
+    {
+      "id": 10,
+      "name": "User8",
+      "login": "User8",
+      "password": "User8",
+      "email": "User8@o.o"
+    },
+    {
+      "id": 11,
+      "name": "User10",
+      "login": "User10",
+      "password": "Uswr10",
+      "email": "User10@o.o"
+    },
+    {
+      "id": 12,
+      "name": "Tomasz",
+      "login": "Tomasz",
+      "password": "Tomasz",
+      "email": "Tomasz@o.ods"
+    },
+    {
+      "id": 13,
+      "name": "K",
+      "login": "K",
+      "password": "K",
+      "email": "K@o.o"
+    },
+    {
+      "id": 14,
+      "name": "Y",
+      "login": "Y",
+      "password": "Y",
+      "email": "Y@o.o"
+    }
+  ],
+  "settings": [
+    {
+      "id": 1,
+      "name": "user_name",
+      "filepath": "example/file/path",
+      "photo_path": "../../../rsc/Foto_def_1.png",
+      "style": 1,
+      "volume": 50,
+      "Time_to_sleep_without_activity_in_minutes": 5
+    },
+    {
+      "id": 4,
+      "name": "Halo",
+      "filepath": "example/file/path",
+      "photo_path": "../../../rsc/Foto_def_1.png",
+      "style": 0,
+      "volume": 50,
+      "Time_to_sleep_without_activity_in_minutes": 5
+    },
+    {
+      "id": 5,
+      "name": "Witam",
+      "filepath": "example/file/path",
+      "photo_path": "../../../rsc/Foto_def_1.png",
+      "style": 0,
+      "volume": 50,
+      "Time_to_sleep_without_activity_in_minutes": 5
+    },
+    {
+      "id": 6,
+      "name": "Nowy",
+      "filepath": "example/file/path",
+      "photo_path": "../../../rsc/Foto_def_1.png",
+      "style": 0,
+      "volume": 50,
+      "Time_to_sleep_without_activity_in_minutes": 5
+    },
+    {
+      "id": 7,
+      "name": "Tak",
+      "filepath": "example/file/path",
+      "photo_path": "../../../rsc/Foto_def_1.png",
+      "style": 0,
+      "volume": 50,
+      "Time_to_sleep_without_activity_in_minutes": 5
+    },
+    {
+      "id": 8,
+      "name": "W",
+      "filepath": "example/file/path",
+      "photo_path": "../../../rsc/Foto_def_1.png",
+      "style": 0,
+      "volume": 50,
+      "Time_to_sleep_without_activity_in_minutes": 5
+    },
+    {
+      "id": 9,
+      "name": "R",
+      "filepath": "example/file/path",
+      "photo_path": "../../../rsc/Foto_def_1.png",
+      "style": 0,
+      "volume": 50,
+      "Time_to_sleep_without_activity_in_minutes": 5
+    },
+    {
+      "id": 10,
+      "name": "User8",
+      "filepath": "example/file/path",
+      "photo_path": "../../../rsc/Foto_def_1.png",
+      "style": 0,
+      "volume": 50,
+      "Time_to_sleep_without_activity_in_minutes": 5
+    },
+    {
+      "id": 11,
+      "name": "User10",
+      "filepath": "example/file/path",
+      "photo_path": "../../../rsc/Foto_def_1.png",
+      "style": 0,
+      "volume": 50,
+      "Time_to_sleep_without_activity_in_minutes": 5
+    },
+    {
+      "id": 12,
+      "name": "Tomasz",
+      "filepath": "example/file/path",
+      "photo_path": "../../../rsc/Foto_def_1.png",
+      "style": 0,
+      "volume": 50,
+      "Time_to_sleep_without_activity_in_minutes": 5
+    },
+    {
+      "id": 13,
+      "name": "K",
+      "filepath": "example/file/path",
+      "photo_path": "../../../rsc/Foto_def_1.png",
+      "style": 0,
+      "volume": 50,
+      "Time_to_sleep_without_activity_in_minutes": 5
+    },
+    {
+      "id": 14,
+      "name": "Y",
+      "filepath": "example/file/path",
+      "photo_path": "../../../rsc/Foto_def_1.png",
+      "style": 0,
+      "volume": 50,
+      "Time_to_sleep_without_activity_in_minutes": 5
+    }
+  ],
+  "statistics": [
+    {
+      "id": 1,
+      "name": "",
+      "Tracs_Listened_To": 3,
+      "Minutes_Spend_Listening": 20,
+      "Steps_Made": 60,
+      "Steps_Per_Min": 10,
+      "Duration": 30
+    },
+    {
+      "id": 4,
+      "name": "Halo",
+      "Tracs_Listened_To": 6000,
+      "Minutes_Spend_Listening": 500,
+      "Steps_Made": 60,
+      "Steps_Per_Min": 10,
+      "Duration": 21
+    },
+    {
+      "id": 5,
+      "name": "Witam",
+      "Tracs_Listened_To": 6000,
+      "Minutes_Spend_Listening": 500,
+      "Steps_Made": 60,
+      "Steps_Per_Min": 10,
+      "Duration": 21
+    },
+    {
+      "id": 6,
+      "name": "Nowy",
+      "Tracs_Listened_To": 6000,
+      "Minutes_Spend_Listening": 500,
+      "Steps_Made": 60,
+      "Steps_Per_Min": 10,
+      "Duration": 21
+    },
+    {
+      "id": 7,
+      "name": "Tak",
+      "Tracs_Listened_To": 6000,
+      "Minutes_Spend_Listening": 500,
+      "Steps_Made": 60,
+      "Steps_Per_Min": 10,
+      "Duration": 21
+    },
+    {
+      "id": 8,
+      "name": "W",
+      "Tracs_Listened_To": 6000,
+      "Minutes_Spend_Listening": 500,
+      "Steps_Made": 60,
+      "Steps_Per_Min": 10,
+      "Duration": 21
+    },
+    {
+      "id": 9,
+      "name": "R",
+      "Tracs_Listened_To": 6000,
+      "Minutes_Spend_Listening": 500,
+      "Steps_Made": 60,
+      "Steps_Per_Min": 10,
+      "Duration": 21
+    },
+    {
+      "id": 10,
+      "name": "User8",
+      "Tracs_Listened_To": 6000,
+      "Minutes_Spend_Listening": 500,
+      "Steps_Made": 60,
+      "Steps_Per_Min": 10,
+      "Duration": 21
+    },
+    {
+      "id": 11,
+      "name": "User10",
+      "Tracs_Listened_To": 6000,
+      "Minutes_Spend_Listening": 500,
+      "Steps_Made": 60,
+      "Steps_Per_Min": 10,
+      "Duration": 21
+    },
+    {
+      "id": 12,
+      "name": "Tomasz",
+      "Tracs_Listened_To": 6000,
+      "Minutes_Spend_Listening": 500,
+      "Steps_Made": 60,
+      "Steps_Per_Min": 10,
+      "Duration": 21
+    },
+    {
+      "id": 13,
+      "name": "K",
+      "Tracs_Listened_To": 6000,
+      "Minutes_Spend_Listening": 500,
+      "Steps_Made": 60,
+      "Steps_Per_Min": 10,
+      "Duration": 21
+    },
+    {
+      "id": 14,
+      "name": "Y",
+      "Tracs_Listened_To": 6000,
+      "Minutes_Spend_Listening": 500,
+      "Steps_Made": 60,
+      "Steps_Per_Min": 10,
+      "Duration": 21
+    }
+  ],
+  "playlist": [
+    {
+      "title": "Playlista nr 1",
+      "id": 1,
+      "tracks": [
+        "Over_the_Horizon.mp3",
+        "doom.mp3",
+        "pirates.mp3"
+      ]
+    },
+    {
+      "title": "Ulubione",
+      "id": 3
+    },
+    {
+      "title": "Tomasz",
+      "id": 4,
+      "tracks": [
+        "szanty.mp3",
+        "pirates.mp3",
+        "Over_the_Horizon.mp3",
+        "resistance.mp3",
+        "doom.mp3"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Szachy",
+      "tracks": [
+        "doom.mp3",
+        "resistance.mp3"
+      ]
+    },
+    {
+      "title": "Michal",
+      "id": 7,
+      "tracks": [
+        "Over_the_Horizon.mp3",
+        "doom.mp3",
+        "pirates.mp3",
+        "szanty.mp3",
+        "resistance.mp3"
+      ]
+    },
+    {
+      "title": "Halo",
+      "id": 8,
+      "tracks": [
+        "doom.mp3",
+        "pirates.mp3",
+        "szanty.mp3"
+      ]
+    }
+  ]
+}

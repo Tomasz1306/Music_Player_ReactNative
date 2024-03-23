@@ -1,0 +1,121 @@
+import React, {useState, useEffect} from 'react';
+import { View, Text, StyleSheet,Pressable } from 'react-native';
+import Slider from '@react-native-community/slider';
+import { LinearGradient } from 'expo-linear-gradient';
+import { useFonts } from 'expo-font';
+import { StatusBar } from 'expo-status-bar';
+import * as Font from 'expo-font';
+import { Ionicons } from '@expo/vector-icons';
+
+
+const SettingsScreen = () => {
+    const [sliderValue, setSliderValue] = useState(0); // Stan wartości suwaka
+    const [sliderEnabled, setSliderEnabled] = useState(true);
+    const [isEnabled, setIsEnabled] = useState(false);
+    const [appSettings, setAppSettings] = useState({
+        darkMode: false,
+      });
+
+      useEffect(() => {
+        async function loadFonts() {
+          await Font.loadAsync({
+            'Oswald': require('./Oswald-Regular.ttf'),
+          });
+        }
+        loadFonts();
+    }, []);
+
+
+
+    const handleButtonPress = () => {
+
+      };
+    
+
+    
+      const toggleSwitch = (settingName) => {
+        setAppSettings({
+          ...appSettings,
+          [settingName]: !appSettings[settingName],
+        });
+      };
+    
+
+    
+
+
+      return (
+        <LinearGradient colors={['#330066', '#8a6fa5']} style={styles.container}>
+          <View style={styles.centerContainer}>
+            <View style={styles.rowContainer}>
+              <View style={styles.textContainer}>
+                <Text style={styles.font}>142</Text>
+                <Text style={styles.font_2}>Steps</Text>
+              </View>
+              <View style={styles.textContainer}>
+                <Text style={styles.font}>5:30</Text>
+                <Text style={styles.font_2}>Duration</Text>
+              </View>
+            </View>
+            <View style={styles.additionalTextContainer}>
+              <Text style={styles.font}>25.807</Text>
+              <Text style={styles.font_2}>Steps per minute</Text>
+            </View>
+            <View>
+            <Pressable onPress={console.log("pedo działa")}>
+              <Ionicons name='play-circle-outline' size={150} color='#bf3fbf' />{}
+            </Pressable>
+             </View>
+
+          </View>
+        </LinearGradient>
+      );
+    };
+    
+    const styles = StyleSheet.create({
+      container: {
+        flex: 1,
+      },
+      centerContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+      },
+      rowContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        marginBottom: 20, // Adjust the margin as needed
+      },
+      textContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+      },
+      font: {
+        color: '#D9D9D9',
+        fontFamily: 'Oswald',
+        fontSize: 64,
+        textAlign: 'center',
+      },
+      font_2: {
+        color: '#D9D9D9',
+        fontFamily: 'Oswald',
+        fontSize: 32,
+        textAlign: 'center',
+      },
+      font_3: {
+        color: '#D9D9D9',
+        fontFamily: 'Oswald',
+        fontSize: 20,
+        textAlign: 'center',
+      },
+      additionalTextContainer: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: -10,
+      },
+    });
+
+
+export default SettingsScreen;
