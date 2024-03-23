@@ -1,4 +1,5 @@
 # Music_Player_ReactNative
+Music player for mobile devices
 ![image](https://github.com/Tomasz1306/Music_Player_ReactNative/blob/main/1.jpg)
 ![image](https://github.com/Tomasz1306/Music_Player_ReactNative/blob/main/2.jpg)
 ![image](https://github.com/Tomasz1306/Music_Player_ReactNative/blob/main/3.jpg)
