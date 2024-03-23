@@ -168,36 +168,7 @@ export function Settings ({navigation}) {
             Authors:
           </Text>
         </View>
-        <View style={{ flexDirection: 'row' }}>
-          <Text style={styles2.font_4(Bg_color, Top_color, Text_color)}>
-            Andrzejewski Oskar
-          </Text></View>
-        <View style={{ flexDirection: 'row' }}>
-          <Text style={styles2.font_4(Bg_color, Top_color, Text_color)}>
-            Banak Michał
-          </Text></View>
-        <View style={{ flexDirection: 'row' }}>
-          <Text style={styles2.font_4(Bg_color, Top_color, Text_color)}>
-            Bogdan Tomasz
-          </Text></View>
-        <View style={{ flexDirection: 'row' }}>
-          <Text style={styles2.font_4(Bg_color, Top_color, Text_color)}>
-            Popielec Mateusz
-          </Text></View>
-        <Pressable onPress={handleLogoutPress}>
-         <View style={styles2.settingRow_2(Bg_color, Top_color, Text_color)}>
-          <Text style={styles2.font_5(Bg_color, Top_color, Text_color)}> Logout</Text>  
-         </View>
-        </Pressable>
-        <Pressable onPress={handleSavePress}>
-         <View style={styles2.settingRow_2(Bg_color, Top_color, Text_color)}>
-          <Text style={styles2.font_5(Bg_color, Top_color, Text_color)}> Save changes</Text>      
-         </View>
-        </Pressable>   
-        <Pressable onPress={handleRemovePress}>
-        <View style={styles2.settingRow_2(Bg_color, Top_color, Text_color)}>
-         <Text style={styles2.font_5(Bg_color, Top_color, Text_color)}> Remove Account</Text>        
-         </View>
+       
         </Pressable> 
     </View>
 
